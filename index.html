@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>三级联动</title>
+	<script src = "ajax.js"></script>
+	<!-- <script src = "index.js"></script> -->
+	<script src = "demo.js"></script>
+</head>
+<body>
+	<select name="" id="province">
+		<option value="">请选择</option>
+	</select>
+	<select name="" id="city">
+		<option value="">请选择</option>
+	</select>
+	<select name="" id="area">
+		<option value="">请选择</option>
+	</select>
+	
+	<script>
+		new List({
+			pro : "province",
+			city : "city",
+			area : "area"
+		});
+	</script>
+</body>
+</html>
